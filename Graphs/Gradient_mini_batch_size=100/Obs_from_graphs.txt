@@ -1,0 +1,20 @@
+D:\git\Neuralnet\Graphs\Gradient_mini_batch_100:
+
+contains graphs for mini batch updates for 10 data points for
+learning rate of 0.3. Number of epochs=10
+The gradient magnitudes with an average has been plotted.
+The upper layer has the more variance.
+With time, the magnitude of the upper layer decreases and that
+of the lower layer increases.
+Layer5:
+
+More diff in gradients of the upper and lower layer.
+
+Layer 4:
+
+Less diff in gradients.
+
+Layer3:
+
+
+Layer2:

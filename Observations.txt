@@ -1,0 +1,5 @@
+Layer1:0.2 and below 	
+Layer2:0.1 and below
+Layer3:0.2 to 0.6---Initially a little high
+Layer4:Initially high, most between 0.4 and 0.7
+Layer5:Initially very high, 0.6 to 1.0, then strats stabilizing.

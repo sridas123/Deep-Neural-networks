@@ -1,0 +1,16 @@
+""" Code to plot the weight vectors after every gradient mini batch update""" 
+
+fig1 = plt.figure()
+ax = fig1.add_subplot(111)
+i=1    
+for grad, color in zip(wfarray, COLORS):
+    ax.plot(np.arange(NUM_INTERVAL), grad, "o-",
+            label="$layer$ = "+str(i),
+            color=color)
+    i=i+1  
+      
+ax.set_xlim([0, NUM_INTERVAL])
+ax.set_xlabel('Update intervals')
+ax.set_ylabel('Weight vector magnitudes')
+plt.legend(loc='upper right')
+plt.savefig(path+'Weight_vector magnitudes1.png', bbox_inches='tight')

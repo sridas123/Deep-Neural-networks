@@ -1,0 +1,17 @@
+Quadratic cost objective:
+Mini batch size=10;learning rate=0.3
+Plotted the average gradients; divided the gradient magnitude by 10.
+Number of epochs=1
+
+Layer2:
+With time Layer 1's gradient increases
+Layer2's gradient decreases. There is a difference in the gradients
+
+
+Layer3:
+
+
+Layer4:
+
+
+Layer5:

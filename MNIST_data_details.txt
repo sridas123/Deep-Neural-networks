@@ -1,0 +1,47 @@
+MNIST dataset format:
+
+Training: 50000 (Each label is a 10D vector)
+Validation: 10000
+Test: 10000
+
+A single hidden layer:
+
+Epoch 0: 8323 / 10000  Accuracy: 83.23
+Epoch 1: 8457 / 10000  Accuracy: 84.57
+Epoch 2: 9300 / 10000  Accuracy: 93.0
+Epoch 3: 9325 / 10000  Accuracy: 93.25
+Epoch 4: 9387 / 10000  Accuracy: 93.87
+Epoch 5: 9384 / 10000  Accuracy: 93.84
+Epoch 6: 9402 / 10000  Accuracy: 94.02
+Epoch 7: 9453 / 10000  Accuracy: 94.53
+Epoch 8: 9452 / 10000  Accuracy: 94.52
+Epoch 9: 9453 / 10000  Accuracy: 94.53
+
+2 hidden layers:
+
+Epoch 0: 8905 / 10000  Accuracy: 89.05
+Epoch 1: 9191 / 10000  Accuracy: 91.91
+Epoch 2: 9303 / 10000  Accuracy: 93.03
+Epoch 3: 9352 / 10000  Accuracy: 93.52
+Epoch 4: 9315 / 10000  Accuracy: 93.15
+Epoch 5: 9451 / 10000  Accuracy: 94.51
+Epoch 6: 9447 / 10000  Accuracy: 94.47
+Epoch 7: 9464 / 10000  Accuracy: 94.64
+Epoch 8: 9438 / 10000  Accuracy: 94.38
+Epoch 9: 9455 / 10000  Accuracy: 94.55
+
+
+
+
+plt.plot(epoch, train_cost)
+plt.xlabel('Epochs')
+plt.ylabel('Training Cost')
+plt.title('Epoch Vs training Cost')
+#plt.savefig(path+'Epoch_cost.png', bbox_inches='tight')
+plt.clf()
+plt.cla()
+plt.plot(epoch, test_accuracy)
+plt.xlabel('Epochs')
+plt.ylabel('Test Accuracy')
+plt.title('Epoch Vs Test Accuracy')
+#plt.savefig(path+'Epoch_accuracy.png', bbox_inches='tight')
